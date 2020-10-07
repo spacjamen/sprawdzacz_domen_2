@@ -22,7 +22,7 @@ function domena(){
 
 
 #=================== ta część pozwala wybrać typ rekordu do sprawdzenia ============================================
-echo 'Witaj użytkownik '" $USER"'. Wybierz z listy rekord, który mam sprawdzić dla domen z pliku "lista_domen.txt"'
+echo 'Witaj użytkownik '" $USER"'. Wybierz z listy rekord, który mam sprawdzić dla domen z pliku "listadomen"'
 read REKORD
 case "$REKORD" in
 	"A")		echo "Sprawdzam rekord A"
